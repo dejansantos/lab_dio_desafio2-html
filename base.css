@@ -1,0 +1,133 @@
+@font-face {
+   font-family: Pacifico;
+   src: url(https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Pacifico&display=swap);
+}
+
+html, body {
+    margin: 0;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+     justify-content: center;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+    
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #daeaf6;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    width: 60%;
+    height: auto;
+
+    webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: #fff0db; 
+    padding: 10px 20px 0px;
+}
+
+.bt{
+    background-color: #99683a; 
+    border: 1px solid #eed9c4;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-bottom: 40px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+   
+}
+
+.bt{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #0000CD;
+}
+
+.bt:hover{
+    background-color: #daeaf6;
+    color: white; 
+}
+
+.bt{
+  
+  display: block;
+}
+
+.footer {
+    background-color: #d9b99b;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    -webkit-box-shadow: 12px 14px 6px 5px rgba(0,0,0,24);
+    box-shadow: 12px 14px 6px 5px rgba(0,0,0,24);
+    border: solid 1px red;
+}
+
+table thead th{
+    background-color: #99683a;
+    color: white;
+}
+                    
+table tbody tr:nth-child(even) td{
+    background-color: #eed9c4 ;
+
+}
+
+table tbody tr:hover td{
+    background-color: steelblue ;
+    cursor: pointer;
+
+}
+
+table tfoot td{
+    background-color:#99683a ;
+}
+
+.form{
+            width: 480px;
+            margin: auto;
+            display: block;
+            text-align: center;
+        }
+
+.map{
+            width: 680px;
+            margin: auto;
+            display: block;
+            text-align: center;
+        }
+
+
